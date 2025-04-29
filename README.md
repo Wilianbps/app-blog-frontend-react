@@ -10,7 +10,7 @@ Este é o frontend de um blog desenvolvido com **React**. A aplicação permite 
 
 - Visualização de posts
 - Campos para comentários com data e hora
-- Interface responsiva e moder
+- Interface responsiva e moderna
 
 ---
 
