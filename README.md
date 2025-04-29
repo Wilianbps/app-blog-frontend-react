@@ -14,7 +14,7 @@ Este é o frontend de um blog desenvolvido com **React**. A aplicação permite 
 
 ---
 
-## 🖼️ Captura de tela
+## 🖼️ Tela do Projeto
 
 ![App Blog - React](./assets/blog-preview.png)
 
