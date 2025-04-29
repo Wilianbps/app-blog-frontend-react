@@ -1,27 +1,40 @@
-# React + TypeScript + Vite
+# Blog em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📰 App Blog - Frontend em React
 
-Currently, two official plugins are available:
+Este é o frontend de um blog desenvolvido com **React**. A aplicação permite aos usuários visualizar posts, deixar comentários e interagir com conteúdos publicados, simulando uma rede de compartilhamento de projetos e feedbacks técnicos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Visualização de posts
+- Campos para comentários com data e hora
+- Interface responsiva e moder
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 🖼️ Tela do Projeto
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![App Blog - React](./assets/blog-preview.png)
+
+> A imagem mostra um exemplo de post com comentários e interação entre usuários.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- React
+- Vite
+- TypeScript
+- CSS Modules
+
+---
+
+## 📦 Como instalar e rodar
+
+```bash
+git clone https://github.com/Wilianbps/app-blog-frontend-react.git
+cd app-blog-frontend-react
+npm install
+npm run dev
